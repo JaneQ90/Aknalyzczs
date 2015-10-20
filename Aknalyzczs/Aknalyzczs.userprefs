@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\changeCameraScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\changeCameraScript.cs" Line="58" Column="25" />
-      <File FileName="Assets\Scripts\Cam1ChangeScript.cs" Line="18" Column="1" />
+      <File FileName="..\..\..\Unity\Projects\VikingVillage\Assets\_Viking Village\Animations\Switch\Scripts\isBlueScript.cs" Line="21" Column="18" />
+      <File FileName="..\..\..\Unity\Projects\VikingVillage\Assets\_Viking Village\Animations\Switch\Scripts\buttonTriggerScript.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Unity\Projects\VikingVillage\Assets\_Viking Village\Animations\Switch\Scripts\switchTriggerScript.cs" Line="101" Column="1" />
+      <File FileName="Assets\Scripts\changeCameraScript.cs" Line="41" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
