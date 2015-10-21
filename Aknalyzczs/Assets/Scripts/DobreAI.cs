@@ -23,12 +23,15 @@ public class DobreAI : MonoBehaviour {
 	private Vector3 pozycjaGraczaXYZ; 
 
 	public Animator anim;
-	public AudioSource walking;
 	public int attack =5;
 	public float timer = 0f;
 
+	public AudioSource walking;
+	public AudioSource bite;
+
 	// Use this for initialization
 	void Start () {
+		;
 		anim = GetComponent<Animator>();
 		mojObiekt = transform; 
 		//Rigidbody pozwala aby na obiekt oddziaływała fizyka.
@@ -58,7 +61,7 @@ public class DobreAI : MonoBehaviour {
 			patrzNaGracza = true;//Gracz w zasiegu wzroku wiec na neigo patrzymy
 			anim.SetBool ("czyidzie", true);
 			anim.SetBool ("czyprzy", false);
-			
+			walking.Play();
 			//Teraz wykonujemy ruch wroga.
 			//Vector3.MoveTowards - pozwala na zdefiniowanie nowej pozycji gracza oraz wykonanie animacji.
 			//Pierwszy parametr obecna pozycja drógi parametr pozycja do jakiej dążymy (czyli pozycja gracza).
@@ -69,10 +72,13 @@ public class DobreAI : MonoBehaviour {
 			patrzNaGracza = true;
 			anim.SetBool ("czyidzie", false);
 			anim.SetBool ("czyprzy", true);
-		
+			bite.Play();
 		} else if (dist > odstepOdGracza) {
 			anim.SetBool ("czyidzie", false);
 			anim.SetBool ("czyprzy", false);
+			walking.Stop();
+			bite.Stop();
+
 		}
         if (!isDead())
         {
@@ -85,6 +91,8 @@ public class DobreAI : MonoBehaviour {
                 GetComponent<Rigidbody>().freezeRotation = false;
 				anim.SetBool ("czyidzie", false);
 				anim.SetBool ("czyprzy", false);
+				walking.Stop();
+				bite.Stop();
             }
         }
 	}
