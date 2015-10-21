@@ -45,14 +45,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Cam1ChangeScript.cs" />
      <Compile Include="Assets\Scripts\DetonationScript.cs" />
+     <Compile Include="Assets\Scripts\DobreAI.cs" />
      <Compile Include="Assets\Scripts\changeCameraScript.cs" />
      <Compile Include="Assets\Scripts\damageScript.cs" />
      <Compile Include="Assets\Scripts\healthScript.cs" />
      <Compile Include="Assets\Scripts\rocketDriveScript.cs" />
      <Compile Include="Assets\Scripts\selfDestructionScript.cs" />
      <Compile Include="Assets\Scripts\shootWithBulletScript.cs" />
+     <Compile Include="Assets\Scripts\spiderScript.cs" />
+     <None Include="Assets\Spider\readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
