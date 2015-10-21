@@ -54,7 +54,7 @@ public class DobreAI : MonoBehaviour {
 		patrzNaGracza = false; //Wróg nie patrz na gracza bo jeszcze nie wiadomo czy jest w zasięgu wzroku.
 
 		//Sprawdzenie czy gracz jest w zasięgu wzroku wroga.
-		if(dist <= zasiegWzroku && dist > odstepOdGracza && !isDead()) {
+		if (dist <= zasiegWzroku && dist > odstepOdGracza && !isDead ()) {
 			patrzNaGracza = true;//Gracz w zasiegu wzroku wiec na neigo patrzymy
 			anim.SetBool ("czyidzie", true);
 			anim.SetBool ("czyprzy", false);
@@ -63,13 +63,16 @@ public class DobreAI : MonoBehaviour {
 			//Vector3.MoveTowards - pozwala na zdefiniowanie nowej pozycji gracza oraz wykonanie animacji.
 			//Pierwszy parametr obecna pozycja drógi parametr pozycja do jakiej dążymy (czyli pozycja gracza).
 			//Trzeci parametr określa z jaką prędkością animacja/ruch ma zostać wykonany.
-			mojObiekt.position = Vector3.MoveTowards(mojObiekt.position, pozycjaGraczaXYZ, predkoscRuchu * Time.deltaTime);
+			mojObiekt.position = Vector3.MoveTowards (mojObiekt.position, pozycjaGraczaXYZ, predkoscRuchu * Time.deltaTime);
 
-		} else if(dist <= odstepOdGracza && !isDead()) { //Jeżeli wróg jest tuż przy graczu to niech ciągle na niego patrzy mimo że nie musi się już poruszać.
+		} else if (dist <= odstepOdGracza && !isDead ()) { //Jeżeli wróg jest tuż przy graczu to niech ciągle na niego patrzy mimo że nie musi się już poruszać.
 			patrzNaGracza = true;
 			anim.SetBool ("czyidzie", false);
 			anim.SetBool ("czyprzy", true);
 		
+		} else if (dist > odstepOdGracza) {
+			anim.SetBool ("czyidzie", false);
+			anim.SetBool ("czyprzy", false);
 		}
         if (!isDead())
         {
