@@ -11,11 +11,11 @@ public class shootWithBulletScript : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
+	public void shoot () {
         countToFire -= Time.deltaTime;
-        if(Input.GetMouseButton(1) && countToFire <= 0)
+        if(/*Input.GetMouseButton(0) && */countToFire <= 0)
         {
             countToFire = wait;
 

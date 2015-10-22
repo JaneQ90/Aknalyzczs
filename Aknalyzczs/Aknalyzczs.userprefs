@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\shootWithBullet2Script.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\True Explosions\System\Scripts\effects\exploderComponents\ParticleComponent.cs">
     <Files>
-      <File FileName="Assets\Scripts\spiderScript.cs" Line="16" Column="17" />
-      <File FileName="Assets\Scripts\DobreAI.cs" Line="74" Column="35" />
-      <File FileName="Assets\Scripts\shootWithBullet2Script.cs" Line="16" Column="18" />
-      <File FileName="Assets\Scripts\shootWithBulletScript.cs" Line="4" Column="38" />
+      <File FileName="Assets\True Explosions\System\Scripts\effects\PseudoVolumetricExplosion.cs" Line="37" Column="14" />
+      <File FileName="Assets\True Explosions\System\Scripts\effects\exploderComponents\ParticleComponent.cs" Line="2" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

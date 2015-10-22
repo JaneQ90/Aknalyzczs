@@ -13,9 +13,9 @@ public class shootWithBullet2Script : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public void shoot () {
 		countToFire -= Time.deltaTime;
-		if(Input.GetMouseButton(0) && countToFire <= 0)
+		if(/*Input.GetMouseButton(0) && */countToFire <= 0)
 		{
 			countToFire = wait;
 			

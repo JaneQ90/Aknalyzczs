@@ -1,41 +1,11 @@
 Base path: D:/Nianio-praca/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-6540
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-3300
 Cmd: getPlatforms
-Cmd: preprocess
-  insize=1761 outsize=1761 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=7598 outsize=3719 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+  api=1 type=0 insize=1642 outsize=169 kw=SOFTPARTICLES_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=7598 outsize=2208 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+  api=8 type=0 insize=1642 outsize=2982 kw=SOFTPARTICLES_ON pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4664 outsize=3102 kw=POINT pd= ok=1
+  api=1 type=1 insize=1642 outsize=115 kw=SOFTPARTICLES_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4664 outsize=2436 kw=POINT pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4039 outsize=3102 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4039 outsize=1331 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=6661 outsize=4483 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=6661 outsize=1924 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=6866 outsize=3858 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=6866 outsize=2574 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=7400 outsize=4938 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=7400 outsize=2054 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4837 outsize=4020 kw=DIRECTIONAL pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4837 outsize=1956 kw=DIRECTIONAL pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4664 outsize=3102 kw=DIRECTIONAL pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4664 outsize=1656 kw=DIRECTIONAL pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1642 outsize=1290 kw=SOFTPARTICLES_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1642 outsize=924 kw=SOFTPARTICLES_OFF pd= ok=1
+  api=8 type=1 insize=1642 outsize=2494 kw=SOFTPARTICLES_ON pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1

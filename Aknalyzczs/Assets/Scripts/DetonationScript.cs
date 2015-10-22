@@ -8,7 +8,7 @@ public class DetonationScript : MonoBehaviour {
 
     void OnTriggerEnter()
     {
-        Debug.Log("OnTriggerEnter");
+        //Debug.Log("OnTriggerEnter");
         Detonation();
     }
     void Detonation()
